@@ -1,0 +1,45 @@
+*{
+    text-decoration: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: teal;
+}
+table{
+    width: 1200px;
+    max-width: 95%;
+    margin: 0 auto;
+}
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+}
+button{
+     padding: 6px 12px;
+     cursor: pointer;
+     border: none;
+}
+.addBtn{
+    background-color: lime;
+}
+.saveBtn{
+    background-color: yellow;
+    margin-right: 10px;
+}
+.cancelBtn{
+    background-color: red;
+    color: white;
+    margin-left: 10px;
+}
+.editBtn{
+    background-color: darkturquoise;
+}
+
+input{
+ padding: 6px;
+ outline: 0;
+}
